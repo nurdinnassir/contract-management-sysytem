@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity Log</title>
+    <link rel="stylesheet" href="../Components/sidebar.css" />
+    <link rel="stylesheet" href="activity.css" />
+    <link rel="stylesheet" href="../Main/main.css" />
+  </head>
+  <body>
+    <div id="sidebar-container"></div>
+    <div class="container">
+      <h1>Activity Log</h1>
+      <table id="activity-table">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Signatory</th>
+            <th>Signed Date</th>
+            <th>Expiry Date</th>
+            <th>Days to Expiry</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Activity log data will be dynamically inserted here -->
+        </tbody>
+      </table>
+      <button id="download-activity-btn">Download Activity Log</button>
+    </div>
+
+    <script src="../Components/sidebar.js"></script>
+    <script src="activity.js"></script>
+  </body>
+</html>
